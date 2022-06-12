@@ -13,7 +13,7 @@ local list = gui_manager_module.createconfigurations(
 
 local injector = {}
 
-function injector.LOAD()
+function injector.LOAD() -- Create your Menu Stuff Here!
     local gui = gui_manager_module.createmenu(list)
     
     repeat wait(.1) until gui
