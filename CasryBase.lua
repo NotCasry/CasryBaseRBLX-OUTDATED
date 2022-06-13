@@ -6,11 +6,11 @@ local Functions = includer.RequireModule("Functions", script)
 local base_module = {}
 
 function base_module.start()
-    Injector.LOAD() -- The first argument is the options you created, the second argument is the gui you created
+    Injector.LOAD()
 end
 
 function base_module.stop()
-    Injector.UNLOAD() -- The first argument is the options you created, the second argument is the gui you created
+    Injector.UNLOAD()
 end
 
 return base_module
